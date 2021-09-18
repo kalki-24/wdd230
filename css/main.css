@@ -20,6 +20,7 @@ header {
     padding: 1rem; 
 }
 h2 { border-bottom: black;
+    border-bottom-width: thin;
 
 }
 footer {

@@ -19,6 +19,9 @@ header, footer {
 header {
     padding: 1rem; 
 }
+h2 { text-decoration: underline;
+
+}
 footer {
     padding: 0.8rem;
 }

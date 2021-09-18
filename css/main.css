@@ -10,14 +10,14 @@ header, nav, main, footer {
     max-width: 750px;
 }
 header, footer {
-    background-color:brown (0, 204, 255);
-    color: yellow (0, 0, 0); 
+    background-color:brown;
+    color: yellow; 
     text-align: center;
     border-radius: 8px 
 }
 
 header {
-    padding: 1.0rem; 
+    padding: 1rem; 
 }
 footer {
     padding: 0.8rem;

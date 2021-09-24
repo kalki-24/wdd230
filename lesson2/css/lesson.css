@@ -7,32 +7,31 @@
 body {
     display: grid;
     font-size: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 header {
     text-align: center;
-    border-style: double;
-   background-color:brown;
-    
+    border-style: double;    
 }
 
 main {
     display: grid;
+    grid-gap; 5px;
     padding: 5px;
 }
 
 section {
     border-style: solid;
-    border-color: brown;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 1em;
 }
 
 h2 {
     display: grid;
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
     background-color: lightcoral;
+    font-size: 2em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -49,7 +48,7 @@ img {
     
     display: block;
     max-width: 100%;
-    margin: auto;
-    border: solid;
+    margin: 0 auto;
+    border: solid 1px;
 }
 

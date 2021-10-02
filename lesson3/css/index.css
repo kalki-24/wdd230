@@ -4,6 +4,10 @@
 body {
     background-color: #54416d;
 }
+.logo-box {
+    width: 200px;
+    height: 200px;
+}
 nav {
     background-color: #75b4e3; 
     text-align: center;
@@ -28,7 +32,8 @@ nav li a {
 
 nav a:hover {
     background-color: whitesmoke;
-    color: white; 
+    color: #54416d; 
+    padding: 15px;
 }
 
 h2 {
@@ -38,6 +43,10 @@ h2 {
 header,nav,main,footer {
 	max-width: 1000px;
     margin: 0 auto;
+}
+.image{
+    width: 150px;
+    height: 150px;
 }
 
 footer {

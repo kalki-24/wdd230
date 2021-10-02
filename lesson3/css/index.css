@@ -4,7 +4,7 @@
 body {
     background-color: #54416d;
 }
-#logo-box {
+#logo {
     width: 200px;
     height: 200px;
 }
@@ -45,8 +45,12 @@ header,nav,main,footer {
     margin: 0 auto;
 }
 #image{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+}
+#image1{
+    width: 200px;
+    height: 200px;
 }
 
 footer {

@@ -4,7 +4,7 @@
 body {
     background-color: #54416d;
 }
-.logo-box {
+#logo-box {
     width: 200px;
     height: 200px;
 }
@@ -44,7 +44,7 @@ header,nav,main,footer {
 	max-width: 1000px;
     margin: 0 auto;
 }
-.image{
+#image{
     width: 150px;
     height: 150px;
 }

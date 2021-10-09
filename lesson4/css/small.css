@@ -60,7 +60,7 @@ main {
     margin: 0 auto;
     padding: 10px
 }
-.navigation{
+.navigation:after{
     content: "";
     display: table;
     clear: both;

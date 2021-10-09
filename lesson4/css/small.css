@@ -81,3 +81,13 @@ footer {
 .footerlink {
     color:blue; 
 }
+ul{
+    font-family: 'Merriweather', serif;
+    background-color: #75b4e3;
+    text-align: center;
+    color:#31255a;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5em;
+    max-width: 960px;
+}

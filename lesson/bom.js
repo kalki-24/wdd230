@@ -10,7 +10,7 @@ button.onclick = function() {
   const favchapText = document.createElement('span');
   const deleteBtn = document.createElement('button');
 
-        favchapList.appendChild(favchapText);
+  favchapList.appendChild(favchapText);
   favchapText.textContent = favchap;
   favchapList.appendChild(deleteBtn);
   deleteBtn.textContent = 'X';

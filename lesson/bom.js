@@ -13,7 +13,7 @@ button.onclick = function() {
         favchapList.appendChild(favchapText);
   favchapText.textContent = favchap;
   favchapList.appendChild(deleteBtn);
-  deleteBtn.textContent = 'Delete';
+  deleteBtn.textContent = 'X';
   list.appendChild(favchapList);
 
   deleteBtn.onclick = function(e) {

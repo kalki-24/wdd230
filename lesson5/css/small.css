@@ -152,6 +152,10 @@ ul{
     text-align: center;
     display: none;
 }
+.prestonMap {
+    float: right; 
+    height: 150px;
+}
 
 .contactinfo{
     list-style-type: none;

@@ -164,5 +164,13 @@ ul{
 }
 h3 {
     text-align: center;
-    color: white;
+}
+#contactheader {
+    text-align: center;
+    color: black;
+}
+#information{
+    text-align: center;
+    color: black;
+    list-style: none;
 }

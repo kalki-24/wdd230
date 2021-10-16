@@ -116,13 +116,12 @@ ul{
 }
 
 .weathersummary {
-    color: black;
+    color: white;
     position: absolute; 
     top: 25px;
     left: 20px; 
     padding: 0.5rem; 
     border: 2px solid;
-    background: radial-gradient(whitesmoke, rgb(95, 70, 70)));
     opacity: .8;
     box-shadow: 0 0 30px white;
 }

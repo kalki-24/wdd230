@@ -1,11 +1,18 @@
 @media only screen and (min-width: 35rem) {
 
+    .forecast{
+        display: block;
+        width: 100%;
+    }
+    nav button {display: none;}
+
     nav ul.hide {
         display: flex;
         justify-content: space-between;
     }
 
     nav ul {
+        display: flex; 
         margin-left: 2%;
     }
 

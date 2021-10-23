@@ -11,3 +11,4 @@ function windChill(tempF, speed) {
     
     return windChill; 
 }
+doInputOutput(); 

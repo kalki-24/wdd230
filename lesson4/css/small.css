@@ -106,25 +106,25 @@ ul{
 
 /* Lesson 7 css */ 
 
-.gallery_image {
+.gallery {
     display: grid; 
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 1rem;
 }
 
-.image_gird {
+.grid-item {
     border: 2px solid black;
     background-color: rgb(247, 247, 247);
 }
 
-.p {
+.grid-item p {
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
     text-shadow: 0.5px 1px 1px #555;
 }
 
-.image_gird img {
+.grid-item img {
     width: 100%;
 }

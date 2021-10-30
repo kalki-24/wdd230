@@ -13,88 +13,96 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <section class="header">
-                <img id="logo" src="image/logo.png" alt="logo image">
-            <h1>Forecast of the Day</h1>
-            </section>
+        <div class="container">
+            <header>
+                <section class="header">
+                    <img id="logo" src="images/logo.png" alt="logo image">
+                <h1>Forecast of the Day</h1>
+                </section>
 
-            <div class="flex-nav-container">
-                <nav  class="navigation">
-                    <button onclick="toggleMenu()">&#9776;Menu</button>
-                    <ul id="primaryNav" class="hide">
-                        <li><a href="preston-4.html">Home</a></li>
-                        <li><a href="">Preston</a></li>
-                        <li><a href="">Soda Springs</a></li>
-                        <li><a href="">Fish Haven</a></li>
-                        <li><a href="">Storm Center</a></li>
-                        <li><a href="">Gallery</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+                <div class="flex-nav-container">
+                    <nav  class="navigation">
+                        <button onclick="toggleMenu()">&#9776;Menu</button>
+                        <ul id="primaryNav" class="hide">
+                            <li><a href="preston-4.html">Home</a></li>
+                            <li><a href="">Preston</a></li>
+                            <li><a href="">Soda Springs</a></li>
+                            <li><a href="">Fish Haven</a></li>
+                            <li><a href="">Storm Center</a></li>
+                            <li><a href="">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <section class="gallery-page">
+                    <h2>Gallery </h2>
+                    <div class="gallery-images">
+                        
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/clear_sky.jpg" alt="Clear sky image">
+                            <p>Clear Sky</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/foggy_day.jpg" alt="Fog image">
+                            <p>Foggy Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/lightning.jpg" alt="Lightning image">
+                            <p>Fall Season</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rain_in_forest.jpg" alt="Rain Fall">
+                            <p>Rain Fall in Forest</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainbow.jpg" alt="Rainbow sky">
+                            <p>Rainbow After Rain</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainy_day.jpg" alt="Image of rainy day">
+                            <p>Rainy Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainbow.jpg" alt="Image of Snowy day">
+                            <p>Heavy Snow Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/snowy_mountain.jpg" alt="Image of Snowy Mountain">
+                            <p>Snowy Mountains</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/place-holder-300x400.jpg" data-src="images/sunny_day.jpg" alt="Image of a sunny day">
+                            <p>Sunny Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/sunnyday_on_farm.jpg" alt="Sunny day on farm">
+                            <p>Sunny Day on Farm</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/thunderstorm.jpg" alt="Image of thunderstorm">
+                            <p>Thunder Sky</p>
+                        </div>
+                        <div class="grid-img">
+                            <img src="images/placeholder-300x400.jpg" data-src="images/windy_day.jpg" alt="Image of a Windy day">
+                            <p>Windy and Chilly Day</p>
+                        </div>
+                    </div>
 
-        <main>
-            <p id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-            
-            <section class="gallery">
-            <h2>Gallery</h2>
-            <div class="gallery_image">
-
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/clear_sky.jpg" alt="Image of clear sky">
-                    <p>Clear Sky</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/foggy_day1.jpg" alt="Image of Fog">
-                    <p>Fall Season</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/lightning.jpg" alt="Image of lightning">
-                    <p>Foggy Sky</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/rain_in_the_forest.jpg" alt="Image of rain in the forest">
-                    <p>Rainy Day</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/rainbow.jpg" alt="Image of rainbow">
-                    <p>A rainbow after the rain</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/rainy_day.jpg" alt="Image of Rainy Day">
-                    <p>Snowy Day</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/snowy_day.jpg" alt="Image of snowy day">
-                    <p>Snowy Mountain</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/snowy-mountain.jpg" alt="Image of snowy mountain">
-                    <p>Mountains in the summer</p>
-                </div>
-                <div class="image_gird">
-                    <img  src="images/placeholder-300x400.jpg" data-src="images/sunny_day.jpg" alt="Image of sunny day">
-                    <p>Bright and Sunny Day</p>
-                </div>
-                <div class="image_gird">
-                    <img src="images/placeholder-300x400.jpg" data-src="images/sunnyday_on_farm.jpg" alt="Image of a sunny day on a farm">
-                    <p>Thunder Skies</p>
-                </div>
-            </div>
-        </section>
-
-    </main>
+                </section>
     
-        <footer>
-            <p> &copy; <span id="Year"></span> | Kalkidan T. Mekonnen| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Last Updated: <span id="Updated"></span> </p>
-        
-        </footer>
-        </div>
-        <script src="js/date.js"></script>
-        <script src="js/lazyload.js"></script>
-      
+            </main>
+
+<footer>
+    <p> &copy; <span id="Year"></span> | Kalkidan T. Mekonnen| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Last Updated: <span id="Updated"></span></p>
+    <img src="image/facebook.png" alt="facebook icon">
+    <img src="image/pinterest.png" alt="pinterest icon">
+    <img src="image/instagram.png" alt="instagram icon">
+
+</footer>
+</div>
+<script src="js/date.js"></script>
+<script src="js/lazy.js"></script>
+
 </body>
-        
 </html>

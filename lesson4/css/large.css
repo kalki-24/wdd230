@@ -21,5 +21,21 @@
     padding: .8rem 1rem; 
     }
 
-}
+    .gallery_image {
+        padding: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        background-color: #f6fafd
+    }
+    
+    .image_gird p {
+        width: 300;
+        height: 400;
+    }
+    .image_gird:hover {
+        box-shadow: 0 0 20px rgb(156, 103, 103);
+    }
+    
+    }
+       
    

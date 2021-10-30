@@ -20,21 +20,18 @@
     {border: none;
     padding: .8rem 1rem; 
     }
-
-/*lesson 7 update*/
-.gallery_image {
-    padding: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    background-color: #d9f0ff
-}
-
-.image_gird p {
-    width: 100%
-}
-.image_gird:hover {
-    box-shadow: 0 0 20px #555;
-}
-
-}
-   
+    .gallery-images {
+        padding: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        background-color: #d9f0ff
+    }
+    
+    .grid-img p {
+        width: 100%
+    }
+    .grid-img:hover {
+        box-shadow: 0 0 20px #555;
+    }
+    
+    } 

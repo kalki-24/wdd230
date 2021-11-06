@@ -128,11 +128,11 @@ input, label {
     display: block;
 }
 
-.top input:required {
+.info input:required {
     border-left: 6px solid red;
 }
 
-.top input:required:valid {
+.info input:required:valid {
     border-left: 6px solid green;
 }
 
@@ -170,7 +170,7 @@ form label.top input, form label.top select {
     max-width: 20rem; 
 }
 
-form label.sbs {
+form label.levels {
     display: block; 
 }
 
@@ -195,7 +195,7 @@ form input.submitBtn {
     max-width: 20rem; 
 }
 
-.storm-form {
+.stormform {
     display: flex;
     justify-content: center;
 }

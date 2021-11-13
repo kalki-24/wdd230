@@ -19,17 +19,18 @@ fetch(requestURL)
 
             let h2 = document.createElement('h2');
             let div = document.createElement("div")
+            let h5 = document.createElement('h5');
+            let article = document.createElement('article');
+            let p = document.createElement('p');
+            let p2 = document.createElement('p');
+            let p3 = document.createElement('p');
+
             div.setAttribute('class', "division")
             h2.setAttribute('class', "name")
-            let h5 = document.createElement('h5');
             h5.setAttribute('class', "name")
-            let article = document.createElement('article');
             article.setAttribute('class', "name")
-            let p = document.createElement('p');
             p.setAttribute('class', "name")
-            let p2 = document.createElement('p');
             p.setAttribute('class', "name")
-            let p3 = document.createElement('p');
 
             image.setAttribute('src', 'image/' + towns[i].photo);
             image.setAttribute('class', "photo" )
@@ -42,10 +43,6 @@ fetch(requestURL)
             p2.textContent = "Population: " + towns[i].currentPopulation;
             p3.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
-            
-    
-    
-            
             div.appendChild(h2);
             div.appendChild(h5);
 
@@ -55,8 +52,6 @@ fetch(requestURL)
             article.appendChild(div)
             article.appendChild(image)
             
-    
-
             card.appendChild(article); 
         }
 

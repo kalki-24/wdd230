@@ -36,11 +36,10 @@
 
     .title {
         text-align: center;
+        color: white;
     }
 
     .name {
         display: block; 
+        text-align: left;
     }
-
-}
-   

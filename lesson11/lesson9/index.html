@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Lesson5-Weather Website</title>
+</head>
+
+<body>
+        <div class="container">
+            <header>
+                <section class="header">
+                    <img id="logo" src="image/logo.png" alt="logo image">
+                <h1>Forecast of the Day</h1>
+                </section>
+
+                <div class="flex-nav-container">
+                    <nav  class="navigation">
+                        <button onclick="toggleMenu()">&#9776;Menu</button>
+                        <ul id="primaryNav" class="hide">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="lesson6/preston-6.html">Preston</a></li>
+                            <li><a href="">Soda Springs</a></li>
+                            <li><a href="">Fish Haven</a></li>
+                            <li><a href="lesson8/stormcenter.html">Storm Center</a></li>
+                            <li><a href="lesson7/gallery-7.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <h2 class="title">EPreston, ID Warnings, Watches and Advisories</h2>
+                <article class="top">
+        
+                    <article>
+                    <div class="left">
+                        <h2 class="h2">Today's Forecast</h2>
+                        <h3 class="title">Today's weather forecast indicates Preston will be covered with fog.</h3>
+                        <img src="image/foggy.jpg" alt="foggy image" class="fog">
+                        <p class="news">We've received an alert that there will be dense fog in effect until 3 am MST Saturday. Mostly it will be around
+                           Highway 20 north of St. Anthony including Island Park and Henry`s Lake. The impact is hazardous driving conditions due to low visibility.
+                           Icy roads from patchy freeing drizzle is possible as well.</p>
+                        <p>If driving, slow down, use your headlights, and leave plenty of distance ahead of you.</p>
+                        </div>
+                    </article>
+        
+                    <article>
+                    <div class="left">
+                        <h2 class="h2">Top Attractions In Preston</h2>
+                        <h3 class="title">Places to visit while in Preston Idaho</h3>
+                        <img src="image/museum.jpg" alt="Photo of a museum" class="museum">
+                        <ol>
+                            <li>Brockholes Nature Reserve</li>
+                            <li>Harris Museum and Art Gallery </li>
+                            <li>British Commercial Vehicle Museum</li>
+                            <li>Ribchester Roman Museum</li>
+                            <li>St Walburge's Church</li>
+                            <li>Preston Docks</li>
+                            <li>Lancashire Infantry Museum</li>
+                        </ol>
+                    </div>
+                    </article>
+                </article>
+             
+    
+                    <div id="cards"></div>
+            </main>
+
+<footer>
+    <p> &copy; <span id="Year"></span> | Kalkidan T. Mekonnen| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Last Updated: <span id="Updated"></span></p>
+    <img src="image/facebook.png" alt="facebook icon">
+    <img src="image/pinterest.png" alt="pinterest icon">
+    <img src="image/instagram.png" alt="instagram icon">
+
+</footer>
+</div>
+<script src="js/date.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontLoad.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

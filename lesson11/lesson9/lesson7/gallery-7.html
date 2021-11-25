@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Lesson7-Weather Website</title>
+</head>
+
+<body>
+        <div class="container">
+            <header>
+                <section class="header">
+                    <img id="logo" src="images/logo.png" alt="logo image">
+                <h1>Forecast of the Day</h1>
+                </section>
+
+                <div class="flex-nav-container">
+                    <nav  class="navigation">
+                        <button onclick="toggleMenu()">&#9776;Menu</button>
+                        <ul id="primaryNav" class="hide">
+                            <li><a href="preston-4.html">Home</a></li>
+                            <li><a href="">Preston</a></li>
+                            <li><a href="">Soda Springs</a></li>
+                            <li><a href="">Fish Haven</a></li>
+                            <li><a href="">Storm Center</a></li>
+                            <li><a href="">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <section class="gallery-page">
+                    <h2>Gallery </h2>
+                    <div class="gallery-images">
+                        
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/clear_sky.jpg" alt="Clear sky image">
+                            <p>Clear Sky</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/foggy_day.jpg" alt="Fog image">
+                            <p>Foggy Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/lightning.jpg" alt="Lightning image">
+                            <p>Lightning on the Sky</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rain_in_forest.jpg" alt="Rain Fall">
+                            <p>Rain Fall in Forest</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainbow.jpg" alt="Rainbow sky">
+                            <p>Rainbow After Rain</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainy_day.jpg" alt="Image of rainy day">
+                            <p>Rainy Day</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/rainbow.jpg" alt="Image of Snowy day">
+                            <p>Rainbow After Rainfall</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/snowy_mountain.jpg" alt="Image of Snowy Mountain">
+                            <p>Snowy Mountains</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/park.jpg" alt="Sunny day on farm">
+                            <p>Sunny Day in Park</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/sunnyday_on_farm.jpg" alt="Sunny day on farm">
+                            <p>Sunny Day on Farm</p>
+                        </div>
+                        <div class="grid-img">
+                            <img  src="images/placeholder-300x400.jpg" data-src="images/thunderstorm.jpg" alt="Image of thunderstorm">
+                            <p>Thunder Sky</p>
+                        </div>
+                        <div class="grid-img">
+                            <img src="images/placeholder-300x400.jpg" data-src="images/windy_day.jpg" alt="Image of a Windy day">
+                            <p>Windy and Chilly Day</p>
+                        </div>
+                    </div>
+
+                </section>
+    
+            </main>
+
+<footer>
+    <p> &copy; <span id="Year"></span> | Kalkidan T. Mekonnen| Utah | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Last Updated: <span id="Updated"></span></p>
+
+</footer>
+</div>
+<script src="js/date.js"></script>
+<script src="js/lazy.js"></script>
+<script src="js/webfontLoad.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 35rem) {
+
+    .forecast{
+        display: block;
+        width: 100%;
+    }
+    nav button {display: none;}
+
+    nav ul.hide {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex; 
+        margin-left: 2%;
+    }
+
+    nav ul li a{
+    border: none;
+    padding: .5rem 1rem; 
+    }
+    .table {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center; 
+    }
+    td {
+        background-color: whitesmoke;
+        color: rgb(85, 52, 52); 
+    }
+    .contactinfo {
+        height: 300px;
+    }
+}

@@ -1,0 +1,37 @@
+@media only screen and (min-width: 64rem) {
+
+    header {
+       width: 100%; 
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left; 
+    }
+
+    nav ul li a
+    {border: none;
+    padding: .8rem 1rem; 
+    }
+    .gallery-images {
+        padding: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        background-color: #d9f0ff
+    }
+    
+    .grid-img p {
+        width: 100%
+    }
+    .grid-img:hover {
+        box-shadow: 0 0 20px #555;
+    }
+    
+    } 

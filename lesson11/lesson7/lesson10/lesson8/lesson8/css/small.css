@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Open+Sans&display=swap');
+
+body {
+    background-color: #54416d;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+}
+nav {
+    display: block;
+    background-color: #75b4e3; 
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em;
+    box-shadow: 0 3px 20px; 
+}
+
+nav ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    overflow: hidden;
+}
+
+nav li a {
+    display: block; 
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;   
+    color:#31255a; 
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: #54416d; 
+    padding: 15px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+header {
+    display: block;
+    font-family: 'Merriweather', serif; 
+    font-weight: bold
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.nav-container {
+    display: block;
+}
+main {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px
+}
+.navigation:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+    font-size: 2em;
+    margin: 3em 0;
+}
+h2 {
+    text-align: center;
+    color: rgb(236, 223, 223);
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    background-color: #75b4e3;
+    text-align: center;
+    color:#31255a;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5em;
+    max-width: 960px;
+}
+.footerlink {
+    color:blue; 
+}
+ul{
+    font-family: 'Merriweather', serif;
+    background-color: #75b4e3;
+    text-align: center;
+    color:#31255a;
+    font-weight: bold;
+    margin: auto;
+    padding: 0.5em;
+    max-width: 960px;
+}
+
+/*Update*/
+.gallery-images {
+    display: grid; 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.grid-img {
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.788);
+}
+
+.grid-img p {
+    text-align: center;
+    color: burlywood;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+/* Lesson 8 Updates */ 
+
+
+input, label {
+    display: block;
+}
+
+.info input:required {
+    border-left: 6px solid red;
+}
+
+.info input:required:valid {
+    border-left: 6px solid green;
+}
+
+label.required::after {
+    content: " *";
+    color: red;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: gray;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.info, form div {
+    display: block; 
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+form label.info input, form label.info select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(85, 77, 77);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem; 
+}
+
+form label.levels {
+    display: block; 
+}
+
+form input.submitBtn {
+    border: none; 
+    background-color: rgb(173, 158, 158);
+    color: black;
+    border-radius: 1rem;
+    padding: 0.70rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.number, .storm-severity{
+    display: flex;
+    font-size: 1rem;
+    border: solid 1px rgb(59, 58, 58);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem; 
+}
+
+.stormform {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    width: 100%;
+}
+
+.submit {
+    text-align: center;
+}
+
+datalist {
+    width: 100%;
+}

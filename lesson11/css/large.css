@@ -20,6 +20,7 @@
     {border: none;
     padding: .8rem 1rem; 
     }
+
     section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -27,19 +28,40 @@
         
         }
     
-    .left {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center; 
+    
+        .left {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center; 
+            
+        }
+    
+        .title {
+            text-align: center;
+        }
+    
+        .name {
+            display: block; 
+        }
+    
+    
+        .weathersummary {
+            display: inline-block; 
+        }
         
+        .gallery-page {
+            display: block; 
+        }
+    
+    
+        
+        /*
+        .photos {
+            grid-template-columns: 1;
+            grid-row: 1;
+        } */ 
+    
+    
     }
-
-    .title {
-        text-align: center;
-        color: white;
-    }
-
-    .name {
-        display: block; 
-        text-align: left;
-    }
+    
+   

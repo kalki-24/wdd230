@@ -73,12 +73,6 @@ h2 {
     text-align: center;
     color: rgb(236, 223, 223);
 }
-.box {
-    background-color: rgb(207, 195, 221);
-    border: 5px black;
-    padding: 25px;
-    margin: 20px;
-}
 
 footer {
     font-family: 'Merriweather', serif;
@@ -105,94 +99,114 @@ ul{
 }
 
 /*Update*/
-.headimage {
-    position: relative;
-    border: 1px;
-}
-.backgroundImg  {
-    margin: 10px auto;
-    border: 1px solid #333; 
-    width: 100%; 
-}
-.table{
-    width: 100%;
-}
-.weathersummary {
-    color: white;
-    position: absolute; 
-    top: 25px;
-    left: 20px; 
-    padding: 0.5rem; 
-    border: 2px solid;
-    opacity: .8;
-    box-shadow: 0 0 30px white;
-}
-.forecast{
-    display: none;
+.gallery-images {
+    display: grid; 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
 }
 
-.article {
-    background-color:  #fbfefb; 
-    border: 2px solid black; 
-    padding: 25px;
-    margin: 20px;  
+.grid-img {
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.788);
 }
-#articleHeader {
-    font-family:  'Merriweather', serif;
+
+.grid-img p {
     text-align: center;
+    color: burlywood;
+    font-size: 1.2em;
     font-weight: bold;
 }
-.colorfest{
-    float: right; 
-    height: 150px;
+
+img {
+    width: 100%;
 }
-#banner{
-    background-color: lightblue;
-    padding: 15px; 
-    text-align: center;
-    display: none;
-}
-.prestonMap {
-    float: right; 
-    height: 150px;
+/* Lesson 8 Updates */ 
+
+
+input, label {
+    display: block;
 }
 
-.contactinfo{
-    list-style-type: none;
-    text-align: left;
-    flex-direction: column; 
-    font-size: 25px;
-}
-.contactinfo {
-    background-color:  #fbfefb; 
-    border: 1px solid black; 
-    padding: 50px;
-}
-h3 {
-    text-align: center;
-    color: white;
-}
-/*Lesson9 update*/
-}
-article {
-    background-color: white;
-}
-.left {
-    border-style: solid;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.photo, .fog {
-    max-width: 100%;
+.info input:required {
+    border-left: 6px solid red;
 }
 
-.museum {
-    max-width: 100%;
+.info input:required:valid {
+    border-left: 6px solid green;
 }
 
-.h2 {
+label.required::after {
+    content: " *";
+    color: red;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: gray;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.info, form div {
+    display: block; 
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+form label.info input, form label.info select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(85, 77, 77);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem; 
+}
+
+form label.levels {
+    display: block; 
+}
+
+form input.submitBtn {
+    border: none; 
+    background-color: rgb(173, 158, 158);
+    color: black;
+    border-radius: 1rem;
+    padding: 0.70rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.number, .storm-severity{
+    display: flex;
+    font-size: 1rem;
+    border: solid 1px rgb(59, 58, 58);
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem; 
+}
+
+.stormform {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    width: 100%;
+}
+
+.submit {
     text-align: center;
 }
-p {
-    color:navajowhite;
+
+datalist {
+    width: 100%;
 }

@@ -9,7 +9,7 @@
     <link href="css/large.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <title>Preston API</title>
+    <title>Lesson5-Weather Website</title>
 </head>
 
 <body>
@@ -54,35 +54,42 @@
                         <p><b>Wind Speed: <span id='speed'>5</span> MPH</b></p>
                     </section>
                 </div>
-
-                <h3>5 Day Forecast</h3>
                 <div class="forecast">
-                    <div class="forecast-day">
-                        <div class="dow"></div>
-                        <div class="temp"></div>
-                        <img src="" alt="" class="icon">
-                    </div>
-                    <div class="forecast-day">
-                        <div class="dow"></div>
-                        <div class="temp"></div>
-                        <img src="" alt="" class="icon">
-                    </div>
-                    <div class="forecast-day">
-                        <div class="dow"></div>
-                        <div class="temp"></div>
-                        <img src="" alt="" class="icon">
-                    </div>
-                    <div class="forecast-day">
-                        <div class="dow"></div>
-                        <div class="temp"></div>
-                        <img src="" alt="" class="icon">
-                    </div>
-                    <div class="forecast-day">
-                        <div class="dow"></div>
-                        <div class="temp"></div>
-                        <img src="" alt="" class="icon">
-                    </div>
-    
+                    <h2>5 Day Forecast</h2>
+                    <table  class="table">
+                        <tr>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                        </tr>
+                        <tr>
+                            <td><img src="image/sunny.png" alt="sunny"></td>
+                            <td><img src="image/sunny.png" alt="sunny"></td>
+                            <td><img src="image/cloudy.png" alt="cloudy"></td>
+                            <td><img src="image/cloudy.png" alt="cloudy"></td>
+                            <td><img src="image/sunny.png" alt="sunny"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>73 &deg; F</h3>
+                            </td>
+                            <td>
+                                <h3>70 &deg;F</h3>
+                            </td>
+                            <td>
+                                <h3>51 &deg; F</h3>
+                            </td>
+                            <td>
+                                <h3>54 &deg; F</h3>
+                            </td>
+                            <td>
+                                <h3>72 &deg; F</h3>
+                            </td>
+                        </tr>
+                        </table>
+                        </div>
                 </div>
 
                 <div class="article">
@@ -100,7 +107,7 @@
                         <p>Address: 30 N 1st E Preston, ID 83263</p>
                         <p>Phone Number: 208-999-9999</p>
                         <p>Website: forecastoftheday.com</p>
-                        </div>
+                        
                 </div>
             </main>
 
@@ -116,6 +123,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontLoad.js"></script>
 <script src="js/windchill.js"></script>
-<script src="js/preston.js"></script>
 </body>
 </html>

@@ -20,16 +20,11 @@
     border: none;
     padding: .5rem 1rem; 
     }
-    .table {
-        border: 1px solid black;
-        align-items: center;
-        text-align: center; 
+    .gallery-images {
+        grid-template-columns: 1fr 1fr;
     }
-    td {
-        background-color: whitesmoke;
-        color: rgb(85, 52, 52); 
-    }
-    .contactinfo {
-        height: 300px;
+
+    .grid-img p {
+        width: 100%
     }
 }

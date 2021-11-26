@@ -20,26 +20,18 @@
     {border: none;
     padding: .8rem 1rem; 
     }
-    section {
-        display: grid;
+    .gallery-images {
+        padding: 30px;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-        
-        }
+        gap: 2rem;
+        background-color: #d9f0ff
+    }
     
-    .left {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center; 
-        
+    .grid-img p {
+        width: 100%
     }
-
-    .title {
-        text-align: center;
-        color: white;
+    .grid-img:hover {
+        box-shadow: 0 0 20px #555;
     }
-
-    .name {
-        display: block; 
-        text-align: left;
-    }
+    
+    } 

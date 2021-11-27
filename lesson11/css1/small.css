@@ -170,28 +170,5 @@ ul{
 }
 h3 {
     text-align: center;
-}
-/*Lesson9 update*/
-}
-article {
-    background-color: white;
-}
-.left {
-    border-style: solid;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.photo, .fog {
-    max-width: 100%;
-}
-
-.museum {
-    max-width: 100%;
-}
-
-.h2 {
-    text-align: center;
-}
-p {
-    color:navajowhite;
+    color: white;
 }

@@ -172,3 +172,22 @@ h3 {
     text-align: center;
     color: white;
 }
+.event-title {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}
+.paragraph {
+    line-height: 8px;
+  }
+  .town-events {
+    background-color:  #fbfefb; 
+    border: 2px solid black; 
+    padding: 25px;
+    margin: 20px;  
+}
+.event-title {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}

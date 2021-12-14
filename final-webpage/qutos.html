@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon (2).ico">
+    <title>Final Project - Tourism</title>
+</head>
+
+<body>
+        <header>
+            <div class="header">  
+                    <img class="logo" src="images/logo.jpeg" alt="Website logo">
+                <div class="slogan">
+                    <p class="title">Ethiopia</p>
+                </div>
+            </div>
+
+
+            <div class="flex-container-wrapper">
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="qutos.html">Qutoas</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>         
+            <div class="qoutaform">
+            <form method="get" action="thanks.html">
+        
+                <fieldset>
+                    <label class="info">Full Name*<input type="text" name="fullname" pattern="(w| ){5,)" required></label>
+                    <label class="info">Email*<input type="email" name="email"  placeholder="someone@gmail.com" required></label>
+                    <label class="info">Phone<input type="telephone" name="phone"  placeholder="1235551234"></label>
+                    <label class="info">Zip Code*<input type="number" name="zipcode"  placeholder="55555" required></label>      
+
+                    <label class="info">When are you traveling?<input type="date" name="sdate"></label>     
+    
+                    <label class="info" for="stormy" id="storm">Tour Type<input list="storm-list" id="stormy" name="storms"></label>
+                    <datalist id="storm-list">
+                        <option value="All Ethiopian">
+                        <option value="Art">
+                        <option value="Culture">
+                        <option value="Seasonal Special">
+                    </datalist>       
+                    <div>
+                        <label class="info" for="rating"><strong>Price</strong> 
+                        <div class="number">
+                            <span id="ratingvalue">$0</span></label>
+                            <input type="range" id="rating" value="200" min="0" max="1000" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">$1000</span></label>
+                        </div>
+                    </div>    
+                            
+                        <datalist id="tickmarks">
+                            <option value="100">
+                            <option value="200">
+                            <option value="300">
+                            <option value="400">
+                            <option value="500">
+                            <option value="600">
+                            <option value="700">
+                            <option value="800">
+                            <option value="900">
+                            <option value="1000">
+                        </datalist>
+    
+                        <label class="info" for="location" id="area">Tour Preference
+                            <select name="region" id="location">
+                                <option value="" selected disabled>Preference</option>
+                                <option value="Kid Friendly">Kid Friendly</option>
+                                <option value="Good for avoiding crowds">Good for avoiding crowds</option>
+                                <option value="Virtual experience">Virtual experience</option>
+                            </select>
+                        </label>
+    
+                        <div>Do you want a tour guide?
+                            <label class="levels"><input type="radio" name="danger" value="yes">Yes</label>
+                            <label class="levels"><input type="radio" name="danger" value="maybe">Maybe</label>
+                            <label class="levels"><input type="radio" name="danger" value="no">No</label>
+                        </div>
+                        
+                        <label class="info">Additional Information</label>
+                        <textarea name="additionalinfo" rows="4" cols="50"></textarea>
+                        <input type="submit" value="Submit" class="submitBtn">
+    
+                </fieldset>
+            
+                </form>
+            </div>
+    
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="modification">
+                    <div><p>&copy; <span id="Year"></span> | Kalkidan Mekonnen| Utah | <a class="footerlink" href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p></div>
+                </div>
+    
+                <div class="social">
+                    <a target="_blank" href="https://www.facebook.com/"><img class="link" src="images/facebook.png" alt="Facebook Icon"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img class="link" src="images/instagram.png" alt="Instagram Icon"></a>
+                    <a target="_blank" href="https://www.pinterest.com/"><img class="link" src="images/pinterest.png" alt="Pinterest Icon"></a>
+                </div>
+            </div>
+        </footer>
+    
+
+    <script src="js/dates.js"></script> 
+    <script src="js/lazy.js"></script> 
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

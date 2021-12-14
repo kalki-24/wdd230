@@ -4,69 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
-    <link rel="icon" href="favicon (2).ico">
-    <title>Lesson5-Weather Website</title>
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon (2).ico">
+    <title>Final Project - Tourism</title>
 </head>
 
 <body>
-        <div class="container">
-            <header>
-                <section class="header">
-                    <img id="logo" src="image/logo.png" alt="logo image">
-                <h1>Forecast of the Day</h1>
-                </section>
-            </head>
-            <body>
-              <div id="content">
-                <header>
-                  <div class="logo-box">
-                    <img src= "https://cdn.glitch.com/7bf665c6-2eab-455b-9137-c5962ad2dbab%2F%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png?v=1623750335024" alt="Korea Logo">
-                  </div>    
-                  <nav>
-                    <ul>
-                      <li>
-                        <a href="index.html"><strong>Home</strong></a>
-                        </li>
-                      <li>
-                        <a href="activity.html"><strong>Activity</strong></a>
-                        </li>
-                      <li>
-                        <a href="faq.html"><strong>FAQ</strong></a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </header>
-                <main>
-                  <div class="home-grid">
-                    <h2 class= "home-headline-1">Travel with us in Korea!</h2>
-                    <img class="image-1" src="https://cdn.glitch.com/7bf665c6-2eab-455b-9137-c5962ad2dbab%2FSouthKorea-Seoul-Desktop-1605650560981.jpg?v=1625589497052" alt="image of Korea in the night">
-                    
-                  <h2 class="home-headline-2">TOUR</h2>
-                  <h2 class="home-headline-3">CULTURE</h2>
-                  <img class="image-2" src="https://cdn.glitch.com/7bf665c6-2eab-455b-9137-c5962ad2dbab%2F%EB%B4%84%EC%82%AC%EC%A7%84%20%EC%B5%9C%EC%A2%85.jpg?v=1625591118648"  alt="a picture korea">
-                  <img class="image-3" src="https://cdn.glitch.com/7bf665c6-2eab-455b-9137-c5962ad2dbab%2F%EC%9D%8C%EC%8B%9D%20%EC%82%AC%EC%A7%84%20%EC%B5%9C%EC%A2%85.jpg?v=1625591124593"  alt="a picture food">
-                    <p class="home-paragraph-2"><strong>Are you looking for a place to travel? Well Korea it is!The most important things to consider when traveling are probably -tourist areas, food, shopping and activities. Our website contains information of the most authentic places and tradition foods that you can consider on your trip. This place will give you the accurate information to plan for your trip and will find a new world to enjoy. There is no need to get knowledge by browsing several blogs posted by other people. Come and get the most efficiant travel plans!</strong></p>
-                  
-                  <p class="home-paragraph-3"><strong>Korea is a place full of street foods and other kinds of cuisins. Food is a very important part of life for people, and food plays a very important role in how we communicate and connect with people. You can experience things you have never experienced here with various ingredients such as herbs, seafood, roots, and meat.</strong></p>
-                    <section class="home-paragraph-4">
-                      <h2>Contact us for more information! 
-                        +82-10-4728-0848</h2>
-                      <p></p>
-                    </section>
-                  </div>
-                </main>
-                <footer>
-                  <p>&copy; 2021 - Jae Eon Yoo- WD 130 <a href="site-plan.html">site-plan</a></p>
-                  <div class="social">
-                    <a target="_blank" href="https://www.facebook.com/"> <img src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="Facebook icon"/></a>
-                    <a target="_blank" href="https://www.youtube.com/"> <img src="https://byui-cit.github.io/wdd130/images/icons/color/youtube.png" alt="Youtube icon"/></a>
-                    <a target="_blank" href="https://www.instagram.com/"><img src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png" alt="Instagram icon"/></a>
-                    </div>
-                  </footer>
+        <header>
+            <div class="header">  
+                    <img class="logo" src="images/logo.jpeg" alt="Website logo">
+                <div class="slogan">
+                    <p class="title">Ethiopia</p>
                 </div>
-              </body>
-          </html>
+            </div>
+
+
+            <div class="flex-container-wrapper">
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="qutos.html">Quota</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main> 
+
+            <div class="mainimage">
+                <picture class="mainimage">
+                       <source media="(max-width: 400)" srcset="images/background-400px.jpg" sizes="400px">
+                        <source media="(max-width: 500)" srcset="images/background-600px.jpg" sizes="600px">
+                        <source media="(max-width: 900px)" srcset="images/background-900px.jpg" sizes="900px">
+                    <img class="background" src="images/background.jpg" alt="Lalibela Image">
+                </picture>
+
+            </div>
+            <h3 class="fiveday">Upcoming Forecast</h3>
+
+            <div class="weather-report">
+
+
+
+            <div class="forecast">
+                <div class="weathersummary">
+                    <div><p><b>Currently: <span id="weather-currently">50</span></b></p></div>
+                    <div><p><b>High: <span id="high-temp">50</span></b></p></div>
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <div class="temp"></div>
+                    <img src="images/imageholder.jpg" alt="placeholder" class="icon">
+                </div>
+
+            </div>
+            </div>
+            <article class="information">
+                <div id="left">
+                    <h2 class="heading">Looking for a place to travel?</h2>
+                    <p> Well Ethiopia is the place for you! 
+                        The most important things to consider when traveling are probably -tourist areas, food, shopping and activities. 
+                        Our website contains information of the most authentic places and traditional foods while in Ethiopia. 
+                        This place will give you the accurate information to plan for your trip and will find a new world to enjoy.</p>                  
+                    <img src="images/dalol.jpg" alt="image of dalol">
+                
+                </div>
+
+
+                <div id="right">
+                    <h2 class="heading">Why Travel to Ethiopia?</h2>
+                                <p>
+               Arid plains, spectacular mountains, lush green areas, and vast lakes define Ethiopia’s scenic landscapes.
+                The country boasts 70% of the mountains on the African continent. 
+                Whether you are in the Semien Mountains or the Danakil Depression, every corner of the country offers a view pleasant to the eyes.</p>
+
+                    <img src="images/food.png" alt="Traditional Food">
+                </div>
+            </article>
+            <div class="contact-information">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8067573.9634818975!2d35.99896402581003!3d9.132321481588608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1635d0cedd6cfd2b%3A0x7bf6a67f5348c55a!2sEthiopia!5e0!3m2!1sen!2sus!4v1639448058370!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                <h2 class="contact-title">Contact Information</h2>
+                <ul>
+                    <div class=contact>
+                        <div><p><b>Contact:</b></p></div>
+                        <div><p><b>Phone Number:&nbsp;</b>091-031-9104</p></div>
+                        <div><p><b>Office Hours:&nbsp;</b>Monday - Saturday 8am-5pm</p></div>
+                    </div>
+                </ul>
+            </div>
+       
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="modification">
+                    <div><p>&copy; <span id="Year"></span> | Kalkidan Mekonnen| Utah | <a class="footerlink" href="http://www.byui.edu/online">BYU-Idaho Online Learning</a> | Modified: <span id="Modified"></span> </p></div>
+                </div>
+    
+                <div class="social">
+                    <a target="_blank" href="https://www.facebook.com/"><img class="link" src="images/facebook.png" alt="Facebook Icon"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img class="link" src="images/instagram.png" alt="Instagram Icon"></a>
+                    <a target="_blank" href="https://www.pinterest.com/"><img class="link" src="images/pinterest.png" alt="Pinterest Icon"></a>
+                </div>
+            </div>
+        </footer>
+    
+
+    <script src="js/dates.js"></script> 
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

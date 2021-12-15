@@ -1,0 +1,22 @@
+{
+    "businesses": [
+      {
+        "name": "Ambasader Hotel",
+        "price": " $40",
+        "website": "ambassadorhotelethiopia.com",
+        "photo": "ambasader.jpg"
+      },
+      {
+        "name": "Capital Hotel",
+        "price": " $60",
+        "website": "capitalhotelandspa.com",
+        "photo": "capital.jpg"
+      },
+      {
+        "name": "Haile Hotel",
+        "price": " $60",
+        "website":"www.haileresorts.com",
+        "photo": "hilton.jpg"
+      }
+    ]
+  }

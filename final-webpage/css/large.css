@@ -1,8 +1,24 @@
-@media only screen and (min-width: 64rem) {
-    .action {
+@media only screen and (min-width: 64rem)
+
         display: inline-block; 
+        nav ul.hide {
+            display: flex;
+            justify-content: space-between;
+        }
     
-    }
+        nav ul {
+            margin-left: 2%;
+        }
+        nav ul li {
+            float: left; 
+        }
+    
+        nav ul li a
+        {
+        border: none;
+        padding: .8rem 2rem; 
+        }
+
     .action {
         color: black;
         position: absolute; 
@@ -55,12 +71,6 @@
         width: 50px;
     }
 
-    .gallery {
-        padding: 30px;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 2rem;
-    }
-    
     .grid-item p {
         width: 100%
     }
@@ -97,15 +107,6 @@
     .puerta-maya {
         padding-top: 20px;
     }
-
-
-    .rental-title {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: 'Crimson Text', serif;
-    }
-
     .writting {
         text-align: center;
         padding-top: 90px;
@@ -146,4 +147,67 @@
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    border: none;
+    gap: 30px; 
+}
+.playa-carmen {
+    padding-top: 20px;
+}
+
+.puerta-maya {
+    display: grid;
+}
+
+
+.rental-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Crimson Text', serif;
+}
+
+.writting {
+    text-align: center;
+    padding-top: 90px;
+    font-weight: bold;
+}
+
+.contact-form {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+  }
+  .container .content {
+    position: absolute;
+    top: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(31, 30, 30, 0.5); 
+    color: #f1f1f1; 
+    width: 215px; 
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .name {
+    display: block; 
+    text-align: left;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  
+img.photos {
+    max-width: 100%;
 }

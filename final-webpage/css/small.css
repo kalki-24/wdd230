@@ -24,6 +24,10 @@ nav {
     padding: .5em;
     box-shadow: 0 2px 10px; 
 }
+li {
+    width: 25%;
+
+}
 nav a.active {
     text-decoration: underline;
     color: black; 
@@ -47,7 +51,7 @@ nav li a {
     padding: 1rem; 
     text-decoration: none;
     font-size: 18px; 
-    color: black
+    color: black;
 }
 
 nav ul li a {
@@ -102,11 +106,6 @@ main, body {
     width: 100px;
     font-size: 10px;
     border-radius: 10%;
-}
-
-h2 {
-    font-family: 'Crimson Text', serif;
-    font-size: 25px;
 }
 p {
     font-family: 'EB Garamond', serif;
@@ -167,34 +166,29 @@ textarea {
 }
 
 /* tours gallery  */
-.gallery-title {
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: 'Crimson Text', serif; 
-}
-
 .gallery {
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr;
+    justify-items: center;
     gap: 1rem;
 }
 
 .grid-item {
     border: 2px solid black;
     background-color: rgb(247, 247, 247);
-
 }
 
 .grid-item p {
     text-align: center;
-    font-size: 18px;
-    padding: 1px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 0.5px 1px 1px #555;
 }
 
 .grid-item img {
     width: 100%;
 }
+
 
 .paragraph-title {
     font-weight: bold;
@@ -371,4 +365,46 @@ textarea {
 datalist {
     width: 100%;
 }
+/*event update*/
 
+.town-events {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 10px; 
+    text-align: center;
+    background-image: linear-gradient(to right,#fbfefb, lightgray );
+}
+
+.event-title {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}
+
+/*event*/
+.town-events {
+    background-color:  #fbfefb; 
+    border: 2px solid black; 
+    padding: 25px;
+    margin: 20px;  
+}
+.event-title {
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 5px 5px gray;
+}
+.event-title h2 {
+    text-align: center;
+}
+article {
+    display: block;
+}
+h2 {
+    text-align: center;
+}
+.photo {
+    max-width: 100%;
+}

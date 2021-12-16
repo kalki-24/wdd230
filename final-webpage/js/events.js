@@ -20,7 +20,7 @@ fetch(jsonFile)
             let event_two = document.createElement('p'); 
             let event_three = document.createElement('p');
 
-            if (pagetitle == "Preston, Idaho" &&  towns[i].name == "Preston") {
+            if (pagetitle == "Etravel" &&  towns[i].name == "Etravel") {
                 event_one.textContent = towns[i].events[0]; 
                 event_one.setAttribute("class", "events"); 
 
@@ -38,7 +38,7 @@ fetch(jsonFile)
 
                 document.querySelector("div.town-events").appendChild(card); 
 
-            } else if (pagetitle == "Soda Springs" &&  towns[i].name == "Soda Springs") {
+            } else if (pagetitle == "Etravel" &&  towns[i].name == "Etravel") {
                 event_one.textContent = towns[i].events[0]; 
                 event_one.setAttribute("class", "events"); 
 
@@ -55,7 +55,7 @@ fetch(jsonFile)
                 card.appendChild(event_three); 
 
                 document.querySelector("div.town-events").appendChild(card); 
-            } else if (pagetitle == "Fish Haven, Idaho" &&  towns[i].name == "Fish Haven") {
+            } else if (pagetitle == "Etravel" &&  towns[i].name == "Etravel") {
                 event_one.textContent = towns[i].events[0]; 
                 event_one.setAttribute("class", "events"); 
 

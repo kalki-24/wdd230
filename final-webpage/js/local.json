@@ -17,6 +17,24 @@
         "price": " $80",
         "website":"www.haileresorts.com",
         "photo": "hilton.jpg"
+      },
+      {
+        "name": "Raddison Blu Hotel",
+        "price": " $20",
+        "website":"www.radissonhotels.com",
+        "photo": "raddison.jpg"
+      },
+      {
+        "name": "Monarch Hotel",
+        "price": " $40",
+        "website":"www.monarch.ken-techno.com",
+        "photo": "monarch.jpg"
+      },
+      {
+        "name": "Lobela Hotel",
+        "price": " $80",
+        "website":"www.hotellobeliaaddis.com",
+        "photo": "lobela.jpg"
       }
     ]
   }

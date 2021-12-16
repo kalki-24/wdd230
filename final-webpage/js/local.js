@@ -14,7 +14,9 @@ fetch(jsonFile)
 
     for ( let i = 0; i < businesses.length; i++) {
 
-        if (businesses[i].name == "Ambasader Hotel" || businesses[i].name == "Capital Hotel" || businesses[i].name == "Haile Hotel") {
+        if (businesses[i].name == "Ambasader Hotel" || businesses[i].name == "Capital Hotel" || businesses[i].name == "Haile Hotel"
+        || businesses[i].name == "Lobela Hotel" || businesses[i].name == "Monarch Hotel" || businesses[i].name == "Raddison Hotel") 
+        {
             let image = document.createElement('img')
 
             let h2 = document.createElement('h2');
@@ -33,14 +35,13 @@ fetch(jsonFile)
 
             image.setAttribute('src', 'images/' + businesses[i].photo);
             image.setAttribute('class', "photos" )
-            image.setAttribute('alt', 'Images depicting the towns')
+            image.setAttribute('alt', 'Images of Hotels')
             image.apphend = businesses[i].photo
 
             h2.textContent = businesses[i].name;
             h5.textContent = businesses[i].motto; 
             p.textContent = "Price: " + businesses[i].price; 
             p2.textContent = "Website: " + businesses[i].website;
-            p3.textContent = "Annual Rainfall: " + businesses[i].averageRainfall;
             
             div.appendChild(h2);
             div.appendChild(h5);
